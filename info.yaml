@@ -1,7 +1,7 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "teste workshop"      # Project title
+  title:        "sinalizar"      # Project title
   author:       "caitano"    # Your name
   discord:      "caitanoprojeto"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "entradas e saidas"      # One line description of what your project does
@@ -16,32 +16,33 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "and,a"
-  ui[1]: "and,b"
-  ui[2]: "and,c"
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "10clk_proibido//estepvcc
+  ui[1]: "srt,proibido
+  ui[2]: "ind1,proibido
+  ui[3]: "ind2,proibido
+  ui[4]: "ind3,proibido 
+  ui[5]: "ind4,proibido 
+  ui[6]: "ind6,proibido 
+  ui[7]: "ind7,proibido 
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]:"aut0disse"
+  uo[1]:"aut1disse"
+  uo[2]: "auto2disse"
+  uo[3]: "auto3disse"
+  uo[4]: "auto4disse"
+  uo[5]: "auto5disse"
+  uo[6]: "auto6disse"
+  uo[7]: "auto7disse"
+  ]: ""
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
+  uio[0]: "aut_g"
+  uio[1]: "aut_f"
+  uio[2]: "aut_a"
+  uio[3]: "aut_b"
+  uio[4]: "aut_d"
+  uio[5]: "aut_disse_pd"
   uio[6]: ""
   uio[7]: ""
 
