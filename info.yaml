@@ -48,3 +48,5 @@ pinout:
 
 # Do not change!
 yaml_version: 6
+"info.yaml"
+"Turns on the panel with each click and turns off with numbers
